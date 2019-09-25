@@ -71,3 +71,36 @@ table {
   left: 145px;
 
 }
+
+.start {
+  position: absolute;
+  z-index: 200;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 800;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #000000;
+  margin: auto;
+  padding: 2rem 0;
+  color: #fff;
+  cursor: pointer;
+
+}
+
+.score {
+  position: absolute;
+  z-index: 200;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #000000;
+  margin: auto;
+  padding: 1rem 0;
+  color: #fff;
+  cursor: pointer;
+}
