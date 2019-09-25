@@ -46,7 +46,7 @@ function startGame(){
         enemy.classList.add('enemy');
         enemy.y = -100 * setting.traffic * (i+1);
         enemy.style.top = enemy.y +'px';
-        enemy.style.background = "transparent url(./image/Enemy23.png) center / cover no-repeat";
+        enemy.style.background = "transparent url(./Enemy23.png) center / cover no-repeat";
         enemy.style.left = Math.floor(Math.random() * (gameArea.offsetWidth - 50)) + "px" ;
         gameArea.appendChild(enemy);
     }
