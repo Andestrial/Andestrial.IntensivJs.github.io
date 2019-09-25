@@ -19,7 +19,7 @@ const setting = {
 
     start: false,
     score: 0,
-    speed: 3,
+    speed: 4,
     traffic: 3
 };
 
