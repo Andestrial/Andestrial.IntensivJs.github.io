@@ -19,8 +19,8 @@ const setting = {
 
     start: false,
     score: 0,
-    speed: 4,
-    traffic: 3
+    speed: 6,
+    traffic: 4
 };
 
 function GetQuantityElements(heightElement) {
